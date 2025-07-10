@@ -1,0 +1,9 @@
+# Step 1: Downloaded and installed Node.js v20.16.0 from the official website
+# Step 2: Opened Command Prompt and verified installation with:
+#         node -v
+#         npm -v
+# Step 3: Navigated to project directory and initialized npm:
+npm init -y
+
+# Step 4: Installed SASS version 3.7.4
+npm install sass@3.7.4
