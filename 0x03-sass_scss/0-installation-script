@@ -1,3 +1,20 @@
+# Step 1: Installed NVM (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Step 2: Restarted terminal to activate NVM
+
+# Step 3: Installed Node.js version 20.16.0 using NVM
+nvm install 20.16.0
+nvm use 20.16.0
+
+# Step 4: Initialized a new Node.js project
+npm init -y
+
+# Step 5: Installed specific version of SASS (3.7.4)
+npm install sass@3.7.4
+
+# for window users it is as follows 
+
 # Step 1: Downloaded and installed Node.js v20.16.0 from the official website
 # Step 2: Opened Command Prompt and verified installation with:
 #         node -v
